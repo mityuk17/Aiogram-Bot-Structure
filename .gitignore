@@ -1,0 +1,4 @@
+/.env
+/pgdata
+/redisdata
+/venv
