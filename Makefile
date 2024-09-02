@@ -1,20 +1,20 @@
-build dev:
+build-dev:
 	docker compose -f docker-compose.develop.yaml build
-run dev:
+run-dev:
 	docker compose -f docker-compose.develop.yaml up
-build-run dev:
+build-run-dev:
 	docker compose -f docker-compose.develop.yaml up --build
 
-stop dev:
+stop-dev:
 	docker compose -f docker-compose.prod.yaml stop
 
 
-build prod:
+build-prod:
 	docker compose -f docker-compose.prod.yaml build
-run prod:
+run-prod:
 	docker compose -f docker-compose.prod.yaml up -d
-build-run prod:
+build-run-prod:
 	docker compose -f docker-compose.prod.yaml up --build -d
 
-stop prod:
+stop-prod:
 	docker compose -f docker-compose.prod.yaml stop
