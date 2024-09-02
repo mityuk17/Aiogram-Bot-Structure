@@ -9,11 +9,11 @@
 ## Запуск бота
 ### dev-версия (синхронизация файлов и быстрый перезапуск бота с внесением изменений)
 ```
-make build-run dev
+make build-run-dev
 ```
 ### prod-версия
 ```
-make build-run prod
+make build-run-0prod
 ```
 
 ## Используемые технологии
