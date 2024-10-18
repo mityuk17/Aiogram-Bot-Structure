@@ -18,16 +18,16 @@ make build-run-0prod
 
 ## Используемые технологии
 * Aiogram 3
-  - pythoh фреймворк для работы с Telegram Bot API
+  - Python фреймворк для работы с Telegram Bot API
 * SQLmodel
-  - python библиотека, объединяет sqlalchemy и pydantic в ORM-систему
+  - Python библиотека, объединяет sqlalchemy и pydantic в ORM-систему
 * Apscheduler
-  - python библиотека планировщик задач
+  - Python библиотека планировщик задач
 * PostgreSQL
   - Основная база данных
 * Redis
   - in-memory база данных для хранения FSM Telegram-бота
 * Docker compose
-  - контейнеризация проекта
+  - Контейнеризация проекта
 * Makefile
   - Упрощение сборки проекта
